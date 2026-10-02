@@ -18,13 +18,13 @@ export default function Footer({ onOpenRegister }: FooterProps) {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-slate-800/80">
           {/* Institution & Department Info */}
           <div className="md:col-span-5 space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-purple-900 flex items-center justify-center text-purple-200">
+            <div className="flex items-start gap-3">
+              <div className="w-10 h-10 rounded-xl bg-purple-900 flex items-center justify-center text-purple-200 shrink-0 mt-0.5">
                 <Cpu className="w-5 h-5" />
               </div>
-              <div>
-                <h3 className="font-bold text-white text-base">Sri Shakthi</h3>
-                <p className="text-xs text-purple-300">Institute of Engineering and Technology</p>
+              <div className="min-w-0">
+                <h3 className="font-bold text-white text-sm sm:text-base leading-snug tracking-tight">SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY</h3>
+                <p className="text-xs text-purple-300 mt-0.5">Autonomous Institution • NAAC 'A' Grade</p>
               </div>
             </div>
 
@@ -102,7 +102,7 @@ export default function Footer({ onOpenRegister }: FooterProps) {
         {/* Bottom Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>
-            © {new Date().getFullYear()} Sri Shakthi Institute of Engineering and Technology. All Rights Reserved.
+            © {new Date().getFullYear()} SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY. All Rights Reserved.
           </p>
           <div className="flex items-center gap-4 text-[11px]">
             <span>Supported by MeitY C2S & IIC</span>

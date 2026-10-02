@@ -21,7 +21,7 @@ export default function VenueAndContact() {
             </span>
           </h2>
           <p className="text-base sm:text-lg text-slate-600 font-normal">
-            Conducted on-site in the advanced VLSI Research Laboratory situated inside the Tech Park on the Sri Shakthi campus.
+            Conducted on-site in the advanced VLSI Research Laboratory situated inside the Tech Park on the SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY campus.
           </p>
         </div>
 
@@ -39,7 +39,7 @@ export default function VenueAndContact() {
                     VLSI Research Lab, Tech Park
                   </h3>
                   <p className="text-xs sm:text-sm font-semibold text-purple-900">
-                    Sri Shakthi Institute of Engineering and Technology
+                    SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY
                   </p>
                 </div>
 
@@ -134,7 +134,7 @@ export default function VenueAndContact() {
 
                 <div className="pt-2 border-t border-purple-800/60">
                   <p className="text-[11px] text-purple-300/80">
-                    Sri Shakthi Institute of Engineering and Technology is an autonomous institution accredited with NAAC 'A' Grade and approved by AICTE.
+                    SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY is an autonomous institution accredited with NAAC 'A' Grade and approved by AICTE.
                   </p>
                 </div>
               </div>

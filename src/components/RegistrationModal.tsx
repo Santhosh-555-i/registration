@@ -147,21 +147,21 @@ export default function RegistrationModal({ isOpen, onClose }: RegistrationModal
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-md overflow-y-auto">
       <div className="relative w-full max-w-2xl bg-white rounded-3xl border border-purple-200 shadow-2xl overflow-hidden my-8 animate-in fade-in zoom-in-95 duration-200">
         {/* Top Header */}
-        <div className="p-6 bg-gradient-to-r from-purple-950 via-purple-900 to-indigo-950 text-white flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-purple-800/80 border border-purple-400/30 flex items-center justify-center shadow-inner">
+        <div className="p-4 sm:p-6 bg-gradient-to-r from-purple-950 via-purple-900 to-indigo-950 text-white flex items-start sm:items-center justify-between gap-3">
+          <div className="flex items-start sm:items-center gap-3 min-w-0">
+            <div className="w-10 h-10 rounded-xl bg-purple-800/80 border border-purple-400/30 flex items-center justify-center shadow-inner shrink-0 mt-0.5 sm:mt-0">
               <Sparkles className="w-5 h-5 text-purple-200" />
             </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="text-xs font-mono font-bold uppercase tracking-wider text-purple-300">
-                  Sri Shakthi • EE (VDT)
+            <div className="min-w-0">
+              <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
+                <span className="text-[10px] sm:text-xs font-mono font-bold uppercase tracking-tight text-purple-300 leading-tight">
+                  SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY • EE (VDT)
                 </span>
-                <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-500/40 font-mono">
+                <span className="text-[9px] sm:text-[10px] px-2 py-0.5 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-500/40 font-mono shrink-0">
                   1:1 Seat Allocation
                 </span>
               </div>
-              <h3 className="font-editorial text-xl sm:text-2xl text-white font-normal">
+              <h3 className="font-editorial text-lg sm:text-2xl text-white font-normal mt-0.5">
                 {step === 'pass' ? 'Workstation Pass Confirmed' : 'Workshop Registration'}
               </h3>
             </div>
@@ -169,7 +169,7 @@ export default function RegistrationModal({ isOpen, onClose }: RegistrationModal
 
           <button
             onClick={onClose}
-            className="p-2 rounded-full text-purple-300 hover:text-white hover:bg-white/10 transition-colors"
+            className="p-2 rounded-full text-purple-300 hover:text-white hover:bg-white/10 transition-colors shrink-0"
           >
             <X className="w-5 h-5" />
           </button>
@@ -277,7 +277,7 @@ export default function RegistrationModal({ isOpen, onClose }: RegistrationModal
                     type="text"
                     name="institution"
                     required
-                    placeholder="e.g. Sri Shakthi Institute of Engineering and Technology"
+                    placeholder="e.g. SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY"
                     value={formData.institution}
                     onChange={handleChange}
                     className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs sm:text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-purple-600/20 focus:border-purple-600"

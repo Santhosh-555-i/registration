@@ -4,12 +4,12 @@ import ScrollObserver from '@/components/ScrollObserver';
 import ScrollProgress from '@/components/ScrollProgress';
 
 export const metadata: Metadata = {
-  title: '1-Credit Industry-Oriented Hands-On Training on VLSI Front-End Design Using Synopsys EDA Tools | Sri Shakthi Institute of Engineering and Technology',
-  description: '1-Credit Industry-Oriented Hands-On Training on VLSI Front-End Design Using Synopsys EDA Tools at Sri Shakthi Institute of Engineering and Technology, Dept of EE (VDT). October 23 & 24, 2026. 30 Dedicated 1:1 CAD Workstations.',
+  title: '1-Credit Industry-Oriented Hands-On Training on VLSI Front-End Design Using Synopsys EDA Tools | SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY',
+  description: '1-Credit Industry-Oriented Hands-On Training on VLSI Front-End Design Using Synopsys EDA Tools at SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY, Dept of EE (VDT). October 23 & 24, 2026. 30 Dedicated 1:1 CAD Workstations.',
   keywords: [
     'VLSI Workshop',
     'Synopsys EDA',
-    'Sri Shakthi Institute of Engineering and Technology',
+    'SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY',
     'Design Compiler',
     'Synopsys VCS',
     'Verdi Waveform',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'Front-End VLSI Design',
     'MeitY C2S'
   ],
-  authors: [{ name: 'Sri Shakthi Institute of Engineering and Technology' }],
+  authors: [{ name: 'SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY' }],
   icons: {
     icon: '/favicon.ico',
   },

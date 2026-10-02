@@ -37,7 +37,7 @@ export default function WorkstationGuarantee({ onOpenRegister }: WorkstationGuar
               <div className="relative aspect-[16/10] w-full rounded-xl sm:rounded-[2.25rem] overflow-hidden group bg-slate-950">
                 <Image
                   src="/images/vlsi_cad_lab.jpg"
-                  alt="VLSI Research Lab at Sri Shakthi Tech Park with 30 Dedicated Single-Monitor Workstations"
+                  alt="VLSI Research Lab at SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY Tech Park with 30 Dedicated Single-Monitor Workstations"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out opacity-95"
                 />

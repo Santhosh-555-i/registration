@@ -41,13 +41,13 @@ export default function CertificateShowcase() {
                 <div className="hidden sm:block absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent" />
 
                 {/* Desktop Stamp Overlay */}
-                <div className="hidden sm:flex absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 items-center justify-between">
-                  <div className="px-4 py-2 rounded-2xl apple-dark-card border border-white/15 text-white">
+                <div className="hidden sm:flex absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 items-center justify-between gap-3">
+                  <div className="px-4 py-2 rounded-2xl apple-dark-card border border-white/15 text-white min-w-0">
                     <p className="text-[10px] text-purple-300 uppercase tracking-widest font-mono font-bold">Issued by</p>
-                    <p className="text-xs sm:text-sm font-semibold">Sri Shakthi • Department of EE (VDT)</p>
+                    <p className="text-xs sm:text-sm font-semibold tracking-tight truncate">SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY • Department of EE (VDT)</p>
                   </div>
 
-                  <div className="px-3.5 py-1.5 rounded-full bg-amber-500/90 backdrop-blur-md text-slate-950 text-xs font-bold flex items-center gap-1.5 shadow-md">
+                  <div className="px-3.5 py-1.5 rounded-full bg-amber-500/90 backdrop-blur-md text-slate-950 text-xs font-bold flex items-center gap-1.5 shadow-md shrink-0">
                     <Sparkles className="w-3.5 h-3.5" />
                     <span>Official Endorsement</span>
                   </div>
@@ -55,9 +55,9 @@ export default function CertificateShowcase() {
               </div>
 
               {/* Mobile Info Strip Placed BELOW Image so Certificate Mockup is 100% Readable */}
-              <div className="sm:hidden mt-2.5 p-2.5 rounded-xl bg-slate-900 border border-purple-900/40 flex items-center justify-between text-xs text-white">
-                <span className="text-[10px] font-mono text-purple-300">Sri Shakthi • EE (VDT)</span>
-                <span className="text-amber-400 font-bold flex items-center gap-1 text-[11px]">
+              <div className="sm:hidden mt-2.5 p-2.5 rounded-xl bg-slate-900 border border-purple-900/40 flex flex-wrap items-center justify-between gap-2 text-xs text-white">
+                <span className="text-[10px] font-mono text-purple-300 tracking-tight leading-tight">SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY • EE (VDT)</span>
+                <span className="text-amber-400 font-bold flex items-center gap-1 text-[11px] shrink-0">
                   <Sparkles className="w-3 h-3" />
                   Official Endorsement
                 </span>
@@ -82,7 +82,7 @@ export default function CertificateShowcase() {
                 <div className="flex items-start gap-2 sm:gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-purple-700 shrink-0 mt-0.5" />
                   <span>
-                    <strong className="text-slate-900">Official Endorsement:</strong> Accredited with seals from Sri Shakthi Institute of Engineering and Technology, MeitY Chip to Startup (C2S), and Institution's Innovation Council.
+                    <strong className="text-slate-900">Official Endorsement:</strong> Accredited with seals from SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY, MeitY Chip to Startup (C2S), and Institution's Innovation Council.
                   </span>
                 </div>
                 <div className="flex items-start gap-2 sm:gap-2.5">

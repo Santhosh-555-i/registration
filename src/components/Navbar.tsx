@@ -25,7 +25,7 @@ const NAV_LINKS = [
   { id: 'curriculum', label: 'EDA Flow', subtitle: '5 Industrial ASIC/FPGA Stages', icon: Layers },
   { id: 'workstations', label: '1:1 Lab', subtitle: '30 Dedicated CAD Workstations', icon: Monitor },
   { id: 'schedule', label: 'Schedule', subtitle: '8:30 AM – 4:30 PM Hands-on', icon: Calendar },
-  { id: 'venue', label: 'Venue & Lab', subtitle: 'Tech Park, Sri Shakthi Campus', icon: MapPin },
+  { id: 'venue', label: 'Venue & Lab', subtitle: 'Tech Park, SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY Campus', icon: MapPin },
   { id: 'faq', label: 'FAQ', subtitle: 'Essential Workshop Details', icon: HelpCircle },
 ];
 
@@ -74,10 +74,10 @@ export default function Navbar({ onOpenRegister }: NavbarProps) {
         } flex items-center justify-between`}
       >
         {/* Brand & Department Monogram with Live Beacon */}
-        <div className="flex items-center gap-3 sm:gap-4 shrink-0">
-          <a href="#" className="flex items-center gap-2.5 sm:gap-3 group">
+        <div className="flex items-center gap-2.5 sm:gap-3 shrink-0 max-w-[240px] sm:max-w-md lg:max-w-xs xl:max-w-sm">
+          <a href="#" className="flex items-center gap-2.5 sm:gap-3 group min-w-0">
             {/* Sleek SSIET / VDT Badge */}
-            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl sm:rounded-2xl bg-gradient-to-br from-purple-950 via-purple-900 to-indigo-950 flex flex-col items-center justify-center shadow-md shadow-purple-950/20 border border-purple-800/40 group-hover:scale-105 transition-transform duration-300">
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl sm:rounded-2xl bg-gradient-to-br from-purple-950 via-purple-900 to-indigo-950 flex flex-col items-center justify-center shadow-md shadow-purple-950/20 border border-purple-800/40 group-hover:scale-105 transition-transform duration-300 shrink-0">
               <span className="text-[9px] sm:text-[11px] font-bold font-mono text-purple-200 tracking-tighter leading-none">
                 SSIET
               </span>
@@ -86,20 +86,20 @@ export default function Navbar({ onOpenRegister }: NavbarProps) {
               </span>
             </div>
 
-            <div className="text-left">
-              <div className="flex items-center gap-1.5 sm:gap-2">
-                <span className="font-bold text-slate-900 tracking-tight text-xs sm:text-base">
-                  Sri Shakthi
+            <div className="text-left min-w-0">
+              <div className="flex items-center">
+                <span className="font-bold text-slate-900 tracking-tight text-[11px] sm:text-xs md:text-sm lg:text-xs xl:text-sm leading-snug line-clamp-2 sm:line-clamp-1">
+                  SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY
                 </span>
               </div>
-              <p className="text-[9px] sm:text-[10px] text-purple-800 font-mono font-bold hidden md:block">
+              <p className="text-[9px] sm:text-[10px] text-purple-800 font-mono font-bold hidden md:block truncate mt-0.5">
                 EE (VDT) • Synopsys Front-End VLSI Masterclass
               </p>
             </div>
           </a>
 
           {/* Desktop Live Status Beacon */}
-          <div className="hidden xl:flex items-center gap-2 px-3 py-1 rounded-full bg-purple-50/80 border border-purple-100/90 text-[11px] font-medium text-purple-950">
+          <div className="hidden 2xl:flex items-center gap-2 px-3 py-1 rounded-full bg-purple-50/80 border border-purple-100/90 text-[11px] font-medium text-purple-950 shrink-0">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
             <span className="font-mono font-bold">30 CAD Stations</span>
             <span className="text-slate-400">•</span>

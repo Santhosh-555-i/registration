@@ -49,21 +49,21 @@ export default function DigitalPassPreview({ pass, onClose }: DigitalPassPreview
         <div className="absolute top-0 right-0 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl pointer-events-none" />
 
         {/* Top Header */}
-        <div className="flex items-center justify-between border-b border-purple-800/40 pb-4 relative z-10">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-purple-900 border border-purple-500/40 flex flex-col items-center justify-center shadow-md">
+        <div className="flex flex-wrap xs:flex-nowrap items-center justify-between gap-3 border-b border-purple-800/40 pb-4 relative z-10">
+          <div className="flex items-center gap-3 min-w-0">
+            <div className="w-10 h-10 rounded-xl bg-purple-900 border border-purple-500/40 flex flex-col items-center justify-center shadow-md shrink-0">
               <span className="text-[10px] font-bold font-mono text-purple-200">SSIET</span>
               <span className="text-[7px] font-mono text-purple-400">VDT</span>
             </div>
-            <div>
-              <p className="text-[10px] uppercase font-mono tracking-widest text-purple-300">
-                Sri Shakthi Institute of Engg & Tech
+            <div className="min-w-0">
+              <p className="text-[9px] sm:text-[10px] uppercase font-mono tracking-tight text-purple-300 font-bold truncate">
+                SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY
               </p>
-              <p className="text-xs font-bold text-white">Department of EE (VDT) • Synopsys Masterclass</p>
+              <p className="text-xs font-bold text-white truncate">Department of EE (VDT) • Synopsys Masterclass</p>
             </div>
           </div>
 
-          <span className="text-[10px] font-mono uppercase px-2.5 py-1 rounded-full bg-emerald-950/90 text-emerald-300 border border-emerald-500/40 font-bold flex items-center gap-1">
+          <span className="text-[10px] font-mono uppercase px-2.5 py-1 rounded-full bg-emerald-950/90 text-emerald-300 border border-emerald-500/40 font-bold flex items-center gap-1 shrink-0 self-start xs:self-auto">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
             <span>CONFIRMED</span>
           </span>

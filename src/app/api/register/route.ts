@@ -104,7 +104,7 @@ export async function POST(request: Request) {
 <body>
   <div class="container">
     <div class="header">
-      <p>SRI SHAKTHI INSTITUTE OF ENGINEERING & TECHNOLOGY</p>
+      <p>SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY</p>
       <h1>Registration & Workstation Confirmed</h1>
       <p>1-Credit Industry-Oriented Hands-On Training on VLSI Front-End Design Using Synopsys EDA Tools</p>
       <div class="badge">Registration Confirmed</div>
@@ -143,7 +143,7 @@ export async function POST(request: Request) {
           </tr>
           <tr>
             <td style="color: #6b21a8; font-weight: 600;">Venue:</td>
-            <td style="font-weight: 700; color: #0f172a;">VLSI Research Lab, Tech Park, Sri Shakthi Campus, Coimbatore</td>
+            <td style="font-weight: 700; color: #0f172a;">VLSI Research Lab, Tech Park, SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY Campus, Coimbatore</td>
           </tr>
           <tr>
             <td style="color: #6b21a8; font-weight: 600;">Registration Fee:</td>
@@ -169,12 +169,12 @@ export async function POST(request: Request) {
       </div>
 
       <p style="font-size: 12px; color: #64748b; margin-top: 24px;">
-        We look forward to hosting you at Sri Shakthi Tech Park!
+        We look forward to hosting you at SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY Tech Park!
       </p>
     </div>
     
     <div class="footer">
-      Sri Shakthi Institute of Engineering and Technology, Coimbatore<br>
+      SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY, Coimbatore<br>
       Department of Electronics Engineering (VLSI Design and Technology) [EE (VDT)]<br>
       Supported by MeitY C2S Programme & Institution's Innovation Council (IIC)
     </div>
@@ -185,7 +185,7 @@ export async function POST(request: Request) {
 
       if (transporter) {
         await transporter.sendMail({
-          from: process.env.EMAIL_FROM || `"Sri Shakthi VLSI Workshop" <${process.env.SMTP_USER || process.env.GMAIL_USER || 'noreply@srishakthi.ac.in'}>`,
+          from: process.env.EMAIL_FROM || `"SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY VLSI Workshop" <${process.env.SMTP_USER || process.env.GMAIL_USER || 'noreply@srishakthi.ac.in'}>`,
           to: email,
           subject: `Registration Confirmed: 1-Credit VLSI Front-End Design Training (Pass: ${passId})`,
           html: emailHtml,

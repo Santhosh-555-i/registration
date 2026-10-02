@@ -20,11 +20,11 @@ export default function Hero({ onOpenRegister }: HeroProps) {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Institutional & Patronage Eyebrow */}
-        <div className="flex flex-wrap items-center justify-center gap-2 mb-4 sm:mb-6 reveal-on-scroll">
-          <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full apple-glass-card border border-purple-200/80 shadow-sm backdrop-blur-md">
-            <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-emerald-500 animate-ping" />
-            <span className="text-[10px] sm:text-xs font-mono font-bold text-purple-950 uppercase tracking-wider">
-              MeitY C2S Patronage • Sri Shakthi
+        <div className="flex flex-wrap items-center justify-center gap-2 mb-4 sm:mb-6 reveal-on-scroll text-center">
+          <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-4 py-1.5 rounded-full apple-glass-card border border-purple-200/80 shadow-sm backdrop-blur-md max-w-full">
+            <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-emerald-500 animate-ping shrink-0" />
+            <span className="text-[10px] sm:text-xs font-mono font-bold text-purple-950 uppercase tracking-tight text-center leading-snug">
+              MeitY C2S Patronage • SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY
             </span>
           </div>
           <div className="inline-flex items-center gap-1 px-3 py-1 sm:py-1.5 rounded-full bg-purple-100/90 text-purple-900 border border-purple-200 text-[10px] sm:text-xs font-semibold font-mono">

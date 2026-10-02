@@ -2,10 +2,10 @@ import { VlsiStage, ScheduleItem } from './types';
 
 export const WORKSHOP_DETAILS = {
   title: "1-Credit Industry-Oriented Hands-On Training on VLSI Front-End Design Using Synopsys EDA Tools",
-  institution: "Sri Shakthi Institute of Engineering and Technology",
+  institution: "SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
   department: "Department of Electronics Engineering (VLSI Design and Technology) [EE (VDT)]",
   organizingBody: "Department of EE (VDT)",
-  venue: "VLSI Research Lab, Tech Park, Sri Shakthi Campus",
+  venue: "VLSI Research Lab, Tech Park, SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY Campus",
   time: "8:30 AM – 4:30 PM (October 23 & 24, 2026)",
   dateNotice: "Registrations Open • October 23 & 24, 2026",
   fee: "₹1,500",
@@ -18,7 +18,7 @@ export const WORKSHOP_DETAILS = {
     { name: "C2S", label: "Chip to Startup Programme" },
     { name: "IIC", label: "Institution's Innovation Council" },
     { name: "Synopsys", label: "Synopsys University Program & EDA Suite" },
-    { name: "Sri Shakthi", label: "Department of EE (VDT)" }
+    { name: "SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY", label: "Department of EE (VDT)" }
   ],
   googleFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSehpT8DM49SR9RqHQNXwfrvKV1UUt2bTCwWSyBV9pdcxKPTlQ/viewform"
 };
@@ -206,7 +206,7 @@ export const SCHEDULE_DATA: ScheduleItem[] = [
     duration: "15 mins",
     title: "Networking Tea & Refreshments",
     type: "break",
-    description: "High-tea and peer networking at Sri Shakthi Tech Park lounge.",
+    description: "High-tea and peer networking at SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY Tech Park lounge.",
     highlights: ["Tea, coffee, and refreshments provided"]
   },
   {
@@ -277,11 +277,11 @@ export const SCHEDULE_DATA: ScheduleItem[] = [
 export const FAQS = [
   {
     question: "Do I need to bring my own laptop with software installed?",
-    answer: "No, absolutely not. The workshop is conducted in the state-of-the-art VLSI Research Lab at Sri Shakthi Tech Park. Every single participant is provided an individual, dedicated enterprise CAD workstation with a single high-resolution monitor and pre-configured Synopsys EDA tools and server licenses. You only need to bring your curiosity."
+    answer: "No, absolutely not. The workshop is conducted in the state-of-the-art VLSI Research Lab at SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY Tech Park. Every single participant is provided an individual, dedicated enterprise CAD workstation with a single high-resolution monitor and pre-configured Synopsys EDA tools and server licenses. You only need to bring your curiosity."
   },
   {
     question: "What certificate will I receive upon completing the workshop?",
-    answer: "Every participant who attends and completes the hands-on lab sessions will receive one unified official Certificate of Participation & Synopsys Front-End VLSI Design Training, accredited with the seals of Sri Shakthi Institute of Engineering and Technology, the MeitY Chip to Startup (C2S) Programme, and the Institution's Innovation Council (IIC)."
+    answer: "Every participant who attends and completes the hands-on lab sessions will receive one unified official Certificate of Participation & Synopsys Front-End VLSI Design Training, accredited with the seals of SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY, the MeitY Chip to Startup (C2S) Programme, and the Institution's Innovation Council (IIC)."
   },
   {
     question: "Who is eligible to register for this workshop?",
@@ -293,6 +293,6 @@ export const FAQS = [
   },
   {
     question: "When will the workshop be conducted?",
-    answer: "The workshop is scheduled for October 23 & 24, 2026 from 8:30 AM to 4:30 PM in the VLSI Research Lab at Sri Shakthi Tech Park. Since capacity is strictly capped at 30 dedicated workstations to ensure 1:1 individual hands-on attention, registrations are open on a first-come, first-served basis."
+    answer: "The workshop is scheduled for October 23 & 24, 2026 from 8:30 AM to 4:30 PM in the VLSI Research Lab at SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY Tech Park. Since capacity is strictly capped at 30 dedicated workstations to ensure 1:1 individual hands-on attention, registrations are open on a first-come, first-served basis."
   }
 ];

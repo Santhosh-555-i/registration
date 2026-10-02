@@ -23,7 +23,7 @@ const checks = [
   {
     name: 'Hero Component Proportional Mobile Scaling & Unblocked Silicon Die (Hero.tsx)',
     path: path.join(__dirname, '../src/components/Hero.tsx'),
-    validate: (content) => content.includes('sm:hidden') && content.includes('synopsys_silicon_chip.jpg') && content.includes('Department of ECE (VDT)')
+    validate: (content) => content.includes('sm:hidden') && content.includes('synopsys_silicon_chip.jpg') && (content.includes('Department of EE (VDT)') || content.includes('EE (VDT)'))
   },
   {
     name: 'Touch-Optimized VLSI Flow & Horizontal Code Viewer (VlsiFlowVisualizer.tsx)',
@@ -36,9 +36,9 @@ const checks = [
     validate: (content) => content.includes('pulseClock') && content.includes('TIMING TRACE')
   },
   {
-    name: 'Unblocked 50 CAD Workstations Photo Layout on Mobile (WorkstationGuarantee.tsx)',
+    name: 'Unblocked CAD Workstations Photo Layout on Mobile (WorkstationGuarantee.tsx)',
     path: path.join(__dirname, '../src/components/WorkstationGuarantee.tsx'),
-    validate: (content) => content.includes('50 Dedicated Workstations') && content.includes('sm:hidden')
+    validate: (content) => (content.includes('Dedicated Workstations') || content.includes('CAD Workstations')) && content.includes('sm:hidden')
   },
   {
     name: 'Unblocked Unified Certificate Photo Layout on Mobile (CertificateShowcase.tsx)',

@@ -51,7 +51,7 @@ const INITIAL_DEMO_ATTENDEES: AttendeeRecord[] = [
     email: 'aravind.s@srishakthi.ac.in',
     phone: '+91 98401 23456',
     category: 'student',
-    institution: 'Sri Shakthi Institute of Engineering and Technology',
+    institution: 'SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY',
     department: 'ECE (VLSI Design and Tech)',
     academicYear: '3rd Year B.E.',
     rollNumber: '714021106012',
@@ -531,7 +531,7 @@ export default function AdminPage() {
 
               <div className="pt-2 border-t border-purple-900/30 text-center">
                 <p className="text-[11px] text-slate-400">
-                  Sri Shakthi Institute of Engineering and Technology • Tech Park VLSI Lab
+                  SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY • Tech Park VLSI Lab
                 </p>
               </div>
             </div>
@@ -567,7 +567,7 @@ export default function AdminPage() {
                 </span>
               </div>
               <p className="text-xs text-purple-300">
-                Sri Shakthi Institute of Engineering and Technology • Tech Park VLSI Lab
+                SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY • Tech Park VLSI Lab
               </p>
             </div>
           </div>
